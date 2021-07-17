@@ -1,0 +1,79 @@
+body{
+ background-color: lightslategrey;
+ /* background-image: url("/img/kk pronos2.jpg"); */
+ background-size: cover;
+ background-position: top;
+}
+
+
+.menu {
+    display: flex;
+    justify-content:space-around;
+    
+
+}
+
+h1{
+    margin: 5%;
+    color: black;
+    background-color: white;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+}
+
+
+img {
+    margin-left: 20%;
+}
+
+input{
+    width: 250px;
+    height: 100px;
+    font-weight: 500;
+    font-size: x-large;
+    background-color: blue;
+    color: white;
+    border-radius: 40%;
+
+}
+
+input:hover{
+    width: 250px;
+    height: 100px;
+    font-weight: 520;
+    font-size: x-large;
+    background-color: white;
+    color: red;
+    transition: 0.3s;
+}
+
+div.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10%;
+    
+}
+
+nav{
+    width: 15%;
+    border: solid 5px white;
+    padding: 2%;
+    border-radius: 20%;
+    background-color: white;
+  
+
+}
+
+nav:hover{
+    border: solid 5px red;
+    transition: 0.3;
+}
+
+div.snap{
+    background-image: url("/img/kk pronos2.jpg");
+    width: 20%;
+    height: 5%;
+    margin-top: 3%;
+}
