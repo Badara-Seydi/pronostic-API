@@ -1,0 +1,26 @@
+{
+  "name": "pronostics-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node",
+    "dev": "nodemon",
+    "db:reset": "sqitch revert -y; sqitch deploy",
+    "db:seed": "node migrations/import.js",
+    "db:install": "sqicth deploy; npm run db:reset; npm run db:seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "log-beautify": "^1.2.0",
+    "pg": "^8.6.0"
+  }
+}
