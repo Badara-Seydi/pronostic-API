@@ -10,17 +10,19 @@
     "start": "node",
     "dev": "nodemon",
     "db:reset": "sqitch revert -y; sqitch deploy",
-    "db:seed": "node migrations/import.js",
+    "db:seed": "node migrations/seeding.js",
     "db:install": "sqicth deploy; npm run db:reset; npm run db:seed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "log-beautify": "^1.2.0",
-    "pg": "^8.6.0"
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.5"
   }
 }
