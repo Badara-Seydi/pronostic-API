@@ -35,7 +35,7 @@ Une étude préliminaire est nécessaire afin de bien comprendre la demande.
 4. Initialisation du gestionnaire de modules (npm/yarn)   <!-- npm init -y>
 5. Installation des modules nécessaires  <!--npm i express pg dotenv>
 6. Soit le projet a été créé sur github soit on initialise (git init)
-7. Ajout du fichier .gitignore (node_module/, .env, sqitch.conf) 
+7. Ajout du fichier .gitignore (node_module/, .env, sqitch.conf) <!--DATABASE_URL=postgresql://postgres@localhost:5432/pronos>
 8. Ajout du fichier .env et .env.example, sqitch.example.conf
 9.  Seeding (ajouter des données réelles ou de test) 
    1. création d'un script d'import 

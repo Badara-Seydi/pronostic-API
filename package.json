@@ -1,0 +1,31 @@
+{
+  "name": "pronofoot-larinks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Badara-Seydi/pronostic-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Badara-Seydi/pronostic-API/issues"
+  },
+  "homepage": "https://github.com/Badara-Seydi/pronostic-API#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "log-beautify": "^1.2.0",
+    "pg": "^8.6.0"
+  }
+}
